@@ -1,0 +1,72 @@
+.FooterWrapper {
+  display: flex;
+  justify-content: center;
+  background: #171823;
+  height: 263px;
+  flex-direction: column;
+}
+
+.logoWrapper {
+  padding: 14px;
+  /* margin-left: 10%; */
+  text-align: center;
+  height: 54px;
+}
+.logoImg {
+}
+
+.MenuListWrapper {
+  list-style-type: none;
+  /* margin: 2px 184px; */
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-left: -3%;
+  height: 20px;
+}
+.GradiantBtn {
+  background-image: linear-gradient(
+    to right,
+    #0cebeb 0%,
+    #20e3b2 51%,
+    #0cebeb 100%
+  );
+}
+.ListItem {
+  float: left;
+  margin-left: 46px;
+  height: 47px;
+  color: #6d7484;
+}
+.copyRightText {
+  color: #6d7484;
+  font-size: 11px;
+  text-align: center;
+}
+.btnGradiant {
+  background-image: linear-gradient(to right, #f07b38 0%, #f4507f 100%);
+  width: 116px;
+  color: #fdf2f1;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.btnGradiant:hover {
+  background-position: right center;
+}
+.ListActive {
+  /* border-bottom: green solid 2px;
+       */
+  /* border-bottom: #f56466 solid 2px; */
+}
+
+.ListAnchor {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #3c404e;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 10px;
+}

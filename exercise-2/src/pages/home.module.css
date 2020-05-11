@@ -1,0 +1,35 @@
+.Container {
+  /* display: flex;
+    justify-content: space-between; */
+}
+.bannerWrapper {
+}
+.LeftWrapper {
+  margin-left: 200px;
+}
+.RightWrapper {
+}
+.description {
+  font-size: 14px;
+  color: #a9abbe;
+}
+
+.UL {
+  list-style: none;
+  margin-left: -1px;
+}
+.LI {
+  height: 6px;
+}
+.LI > span {
+  font-size: 12px;
+  color: #a9abbe;
+  font-weight: 500;
+}
+.lastLable {
+  border-bottom: #f56466 solid 2px;
+  position: absolute;
+  top: 71%;
+  font-size: 12px;
+  font-weight: 600;
+}

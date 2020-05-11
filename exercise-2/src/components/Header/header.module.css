@@ -1,0 +1,57 @@
+.HeaderWrapper {
+  background: #ffffff;
+  display: flex;
+}
+
+.logoWrapper {
+  padding: 14px;
+  margin-left: 10%;
+}
+.logoImg {
+}
+
+.MenuListWrapper {
+  list-style-type: none;
+  margin: 2px 184px;
+  padding: 0;
+  overflow: hidden;
+}
+.GradiantBtn {
+  background-image: linear-gradient(
+    to right,
+    #0cebeb 0%,
+    #20e3b2 51%,
+    #0cebeb 100%
+  );
+}
+.ListItem {
+  float: left;
+  margin-left: 25px;
+  height: 47px;
+}
+.btnGradiant {
+ background-image: linear-gradient(to right, #f07b38 0%, #f4507f 100%);
+    width: 116px;
+    color: #FDF2F1;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.btnGradiant:hover {
+  background-position: right center;
+}
+.ListActive {
+  /* border-bottom: green solid 2px;
+     */
+  border-bottom: #f56466 solid 2px;
+}
+
+.ListAnchor {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #3c404e;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 10px;
+}

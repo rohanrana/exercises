@@ -1,0 +1,110 @@
+.blogsContainer {
+  text-align: center;
+}
+.mainHeading {
+  margin-top: 35px;
+  height: 17px;
+}
+.subHeading {
+  color: #a9abbe;
+  font-size: 14px;
+}
+
+.timeLineContainer {
+  width: 79%;
+  display: flex;
+
+  margin: 3% 11%;
+  box-shadow: 5px 5px 14px -8px #777;
+}
+.timeLineBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: #e4dede solid 1px;
+  width: 228px;
+  height: 74px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+.timeLineActive {
+  background-image: linear-gradient(to right, #f07b38 0%, #f4507f 100%);
+}
+.timeLineActive .timeLineHeading {
+  color: #fff;
+}
+
+.timeLineBox .timeLineSubHeading {
+  color: #cabebe;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.BlogsListContainer {
+  width: 79%;
+  display: flex;
+  margin: 3% 11%;
+}
+.BlogsBox {
+  border: 1px solid #d8d8d8;
+  width: 100%;
+  display: flex;
+  /* padding: 58px; */
+  padding-top: 24px;
+  /* justify-content: space-evenly; */
+}
+.BlogImage {
+  margin-left: 84px;
+}
+.BlogImage > img {
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+}
+.BlogNameDetails {
+  justify-content: center;
+  margin-left: 96px;
+  margin-top: 30px;
+}
+.BlogTimeDetails {
+}
+
+.BlogNameMetaData {
+  display: flex;
+}
+.BlogNameMetaData > span {
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-left: 8px;
+  color: #8a949c;
+}
+
+.BlogNameMetaData > img {
+  width: 11px;
+}
+.BlogTimeMetaData {
+  display: flex;
+  flex-direction: column;
+}
+.TimeInnerData > span {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-left: 8px;
+  color: #8a949c;
+}
+
+.TimeInnerData > img {
+  width: 11px;
+}
+
+.BlogTimeDetail {
+  justify-content: center;
+  margin-left: 130px;
+  margin-top: 40px;
+}
+
+.TimeInnerData {
+  display: flex;
+}
