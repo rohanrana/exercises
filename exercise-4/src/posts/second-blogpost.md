@@ -1,0 +1,8 @@
+---
+title: "PM says a lockdown will continue in some form or the other even after May 17"
+date: "2020 12 05"
+keywords: "firstKeyWords,secondKeyWords,ThirdKeyWords"
+image: "https://static.toiimg.com/thumb/msid-75501567,imgsize-135725,width-400,resizemode-4/75501567.jpg"
+---
+
+Prime Minister Narendra Modi on Monday said at a videoconference with Chief Ministers that a lockdown would continue in some form or the other even after May 17, but that the State governments should send in their plans for ramping up economic activity in green zones in their States between May 15 and 17 for consideration by the Centre.
